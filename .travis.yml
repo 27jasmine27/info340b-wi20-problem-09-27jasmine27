@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "12"
+before_install:
+  - export TZ=America/Los_Angeles
+before_script:
+  - "npm install jest"
+cache:
+  directories:
+    - "node_modules"
+# notifications:
+#   email: false
